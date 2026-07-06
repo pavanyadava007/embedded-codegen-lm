@@ -1,0 +1,12 @@
+torch>=2.4.0
+transformers>=4.45.0
+datasets>=2.20.0
+peft>=0.12.0
+accelerate>=0.34.0
+triton>=3.0.0
+bitsandbytes>=0.43.0
+autoawq>=0.2.6
+vllm>=0.6.0
+pyyaml
+tqdm
+numpy
