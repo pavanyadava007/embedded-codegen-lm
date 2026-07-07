@@ -1,0 +1,1 @@
+uint8_t clz32(uint32_t v){if(v==0u){return 32u;}uint8_t n=0u;while((v&0x80000000u)==0u){n++;v<<=1;}return n;}

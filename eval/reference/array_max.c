@@ -1,0 +1,1 @@
+int32_t array_max(const int32_t *a, uint32_t n){int32_t m=a[0];for(uint32_t i=1u;i<n;i++){if(a[i]>m){m=a[i];}}return m;}

@@ -1,0 +1,20 @@
+model_name: "Qwen/Qwen2.5-Coder-1.5B"
+dataset_path: "data/processed/embedded_c_instruct"
+output_dir: "checkpoints/lora-instruct"
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+
+max_seq_len: 1024
+per_device_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+warmup_ratio: 0.05
+num_epochs: 3
+bf16: true
+gradient_checkpointing: true
+logging_steps: 10
+save_steps: 200
+seed: 42

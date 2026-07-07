@@ -1,0 +1,1 @@
+uint8_t reverse_bits8(uint8_t b){uint8_t r=0u;for(uint8_t i=0u;i<8u;i++){r=(uint8_t)((r<<1)|((b>>i)&1u));}return r;}

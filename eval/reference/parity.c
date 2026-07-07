@@ -1,0 +1,1 @@
+uint8_t parity_odd(uint32_t v){uint8_t p=0u;while(v!=0u){p^=1u;v&=(v-1u);}return p;}

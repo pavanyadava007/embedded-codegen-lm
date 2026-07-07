@@ -1,0 +1,1 @@
+uint8_t sat_add_u8(uint8_t a, uint8_t b){uint16_t s=(uint16_t)a+(uint16_t)b;return (s>255u)?255u:(uint8_t)s;}

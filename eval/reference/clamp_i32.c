@@ -1,0 +1,1 @@
+int32_t clamp_i32(int32_t v, int32_t lo, int32_t hi){int32_t r=v;if(v<lo){r=lo;}else if(v>hi){r=hi;}else{}return r;}

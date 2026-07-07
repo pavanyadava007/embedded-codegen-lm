@@ -22,6 +22,16 @@ REF = {
     "pid": "pid.c",
     "debounce": "debounce.c",
     "moving_avg": "moving_avg.c",
+    "clamp_i32": "clamp_i32.c",
+    "map_range": "map_range.c",
+    "parity": "parity.c",
+    "reverse_bits": "reverse_bits.c",
+    "sat_add_u8": "sat_add_u8.c",
+    "lerp_fixed": "lerp_fixed.c",
+    "count_leading_zeros": "count_leading_zeros.c",
+    "gcd": "gcd.c",
+    "is_power_of_two": "is_power_of_two.c",
+    "array_max": "array_max.c",
 }
 
 

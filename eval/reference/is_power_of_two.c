@@ -1,0 +1,1 @@
+uint8_t is_pow2(uint32_t v){return ((v!=0u)&&((v&(v-1u))==0u))?1u:0u;}

@@ -1,0 +1,1 @@
+int32_t lerp_q8(int32_t a, int32_t b, uint16_t t){return a+(((b-a)*(int32_t)t)/256);}
