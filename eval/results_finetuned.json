@@ -1,0 +1,244 @@
+{
+  "summary": {
+    "model": "checkpoints/merged-embedded-c",
+    "k": 5,
+    "compile_rate": 0.64,
+    "cross_compile_rate": 0.6,
+    "misra_clean_rate": 0.36,
+    "pass@1": 0.07999999999999999,
+    "pass@5": 0.4
+  },
+  "tasks": [
+    {
+      "task_id": "ring_buffer",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "17.7",
+            "20.1",
+            "8.2"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "crc16",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.4"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "12.1",
+            "14.4",
+            "17.8"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "pid",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "12.1",
+            "15.7"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "debounce",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "moving_avg",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        }
+      ]
+    }
+  ]
+}

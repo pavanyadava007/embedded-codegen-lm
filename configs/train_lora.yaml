@@ -11,11 +11,11 @@ target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj",
 
 # Training
 max_seq_len: 2048
-per_device_batch_size: 4
-gradient_accumulation_steps: 8      # effective batch = 32
+per_device_batch_size: 2
+gradient_accumulation_steps: 16      # effective batch = 32
 learning_rate: 2.0e-4
 warmup_ratio: 0.03
-num_epochs: 2
+num_epochs: 1
 lr_scheduler: "cosine"
 bf16: true
 gradient_checkpointing: true

@@ -1,0 +1,810 @@
+{
+  "summary": {
+    "model": "Qwen/Qwen2.5-Coder-1.5B",
+    "k": 5,
+    "compile_rate": 0.7333333333333333,
+    "cross_compile_rate": 0.6,
+    "misra_clean_rate": 0.18666666666666668,
+    "pass@1": 0.15999999999999998,
+    "pass@5": 0.6
+  },
+  "tasks": [
+    {
+      "task_id": "ring_buffer",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "15.5"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "15.5"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "15.5"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "crc16",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.4",
+            "17.7",
+            "21.6",
+            "7.4",
+            "8.2"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.4"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.1",
+            "10.3",
+            "10.4",
+            "17.7",
+            "21.6",
+            "21.8"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.4",
+            "11.8",
+            "14.4",
+            "21.6"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "pid",
+      "pass@1": 0.4,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "12.1"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "12.1",
+            "15.7"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "12.1"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "12.1",
+            "15.7"
+          ],
+          "tests_pass": true
+        }
+      ]
+    },
+    {
+      "task_id": "debounce",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "15.5"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "15.5"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "moving_avg",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "clamp_i32",
+      "pass@1": 0.4,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "15.5"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "15.5",
+            "20.1"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "map_range",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "17.7",
+            "21.6",
+            "21.7",
+            "21.8"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "17.7",
+            "21.6",
+            "8.2"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "21.1"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "parity",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.4",
+            "15.5",
+            "17.7",
+            "17.8",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "14.4",
+            "17.8"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.4",
+            "15.6",
+            "17.7",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "14.4",
+            "15.5",
+            "17.7",
+            "17.8",
+            "21.6",
+            "21.7"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "reverse_bits",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.8",
+            "21.6"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.7",
+            "17.8",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.7",
+            "17.8",
+            "2.7",
+            "21.6",
+            "21.7"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "sat_add_u8",
+      "pass@1": 0.4,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "20.1"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "12.1"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "lerp_fixed",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.7",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.3",
+            "10.8",
+            "17.7",
+            "2.7",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "count_leading_zeros",
+      "pass@1": 0.0,
+      "pass@5": 0.0,
+      "samples": [
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.7",
+            "17.8",
+            "21.6",
+            "7.2",
+            "8.2"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "gcd",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.8"
+          ],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "12.3",
+            "15.5",
+            "17.7",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "12.3",
+            "17.7",
+            "17.8",
+            "21.6",
+            "21.8",
+            "8.2"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "is_power_of_two",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": true
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "17.7",
+            "21.6",
+            "21.8",
+            "22.8"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "10.4",
+            "14.4",
+            "17.7",
+            "21.6",
+            "21.7"
+          ],
+          "tests_pass": false
+        }
+      ]
+    },
+    {
+      "task_id": "array_max",
+      "pass@1": 0.19999999999999996,
+      "pass@5": 1.0,
+      "samples": [
+        {
+          "compiles": true,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [
+            "17.7",
+            "21.6"
+          ],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": false,
+          "cross_compiles": false,
+          "misra_clean": false,
+          "misra_violations": [],
+          "tests_pass": false
+        },
+        {
+          "compiles": true,
+          "cross_compiles": true,
+          "misra_clean": true,
+          "misra_violations": [],
+          "tests_pass": true
+        }
+      ]
+    }
+  ]
+}

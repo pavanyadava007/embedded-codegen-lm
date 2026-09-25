@@ -1,0 +1,26 @@
+The tokenizer you are loading from 'checkpoints/merged-embedded-c' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+[ring_buffer] pass@1=0.00 pass@5=0.00 compile=5/5
+[crc16] pass@1=0.00 pass@5=0.00 compile=1/5
+[pid] pass@1=0.20 pass@5=1.00 compile=4/5
+[debounce] pass@1=0.00 pass@5=0.00 compile=3/5
+[moving_avg] pass@1=0.00 pass@5=0.00 compile=4/5
+[clamp_i32] pass@1=0.00 pass@5=0.00 compile=4/5
+[map_range] pass@1=0.40 pass@5=1.00 compile=2/5
+[parity] pass@1=0.00 pass@5=0.00 compile=2/5
+[reverse_bits] pass@1=0.40 pass@5=1.00 compile=2/5
+[sat_add_u8] pass@1=0.20 pass@5=1.00 compile=1/5
+[lerp_fixed] pass@1=0.00 pass@5=0.00 compile=2/5
+[count_leading_zeros] pass@1=0.00 pass@5=0.00 compile=1/5
+[gcd] pass@1=0.00 pass@5=0.00 compile=1/5
+[is_power_of_two] pass@1=0.00 pass@5=0.00 compile=0/5
+[array_max] pass@1=0.60 pass@5=1.00 compile=3/5
+
+=== SUMMARY ===
+               model: checkpoints/merged-embedded-c
+                   k: 5
+        compile_rate: 0.467
+  cross_compile_rate: 0.453
+    misra_clean_rate: 0.267
+              pass@1: 0.12
+              pass@5: 0.333
